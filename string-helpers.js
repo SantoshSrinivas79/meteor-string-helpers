@@ -1,4 +1,5 @@
 import { Template } from 'meteor/templating';
+import { s } from 'meteor/underscorestring:underscore.string';
 
 Template.helpers({
 	
