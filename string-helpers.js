@@ -19,4 +19,8 @@ Template.helpers({
 		// credit: https://github.com/epeli/underscore.string#sstring--chain
 		return s(string).substring(start, n).value();
 	},
+
+	numberFormat(string, decimals=0, decimalSeparator='.', orderSeparator=',') {
+		return s(string).numberFormat(decimals, decimalSeparator, orderSeparator).value();
+	}
 });
